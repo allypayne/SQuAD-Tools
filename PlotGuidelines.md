@@ -8,6 +8,9 @@ You should first create a data set using "detections" for either the HI or OVI t
 With these tools you can create draft plots that we are using in our upcoming poster!
 Start by adjusting the color bar (and corresponding titles); ideas for these plots include: sqrt_M_tot_OVI, sqrt_M_tot_HI, H_I_total_log10_N, O_VI_total_log10_N
 
+# Get started with the notebook called DraftPlots
+Download the nb and you can go through the cells and adjust the parameters to create your own versions of the plots.
+
 ## Understanding Detections
 These are defined as galaxies that meet all of our selection criteria and show absorption features in the QSO spectrum for gas within it's circumgalactic medium. To classify as a true detection within our analysis the component must have a correponding detection threshold of <= 13.5 (anything higher will allow for too much noise within our data to confidently say this absorption feature has been detected within the CGM and wont allow us to extract reliable absoprtion data).
 
