@@ -1,5 +1,5 @@
 # SQuAD-Tools
-some of the code I have been implementing for work over the summer
+some of the code that's been implemented for work over the summer
 
 # Plots for the Poster (/Guidelines to Plots)
 If you want to create a draft plot with our data you can do so with the make_plot function within my script titled "detections"
