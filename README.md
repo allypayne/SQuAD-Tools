@@ -1,9 +1,8 @@
 # SQuAD-Tools
-some of the code that's been implemented for work over the summer
+Some of the code that's been implemented for work over the summer. This file serves as a roadmap to the other tools in this directory and the meaning of each.
 
-# Plots for the Poster (/Guidelines to Plots)
-If you want to create a draft plot with our data you can do so with the make_plot function within my script titled "detections"
-You should first create a data set using "detections" for either the HI or OVI the detections and another data set for the OVI detections. You will then need to create a "non detections" data set using the same script file. This are both required parameters for the make_plot function. With these tools you can create draft plots that we are using in our upcoming poster!
-Start by adjusting the color bar (and corresponding titles); ideas for these plots include: sqrt_M_tot_OVI, sqrt_M_tot_HI, H_I_total_log10_N, O_VI_total_log10_N
+# PlotGuidelines 
+(/Guidelines to Plots)
+Refer to this file to gain an understanding of detections/ non detections and how to create draft plots that are used for analysis.
 
 ## 
