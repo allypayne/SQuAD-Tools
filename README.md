@@ -3,6 +3,7 @@ Some of the code that's been implemented for work over the summer. This file ser
 
 # PlotGuidelines 
 Read PlotGuidelines [here](/PlotGuidelines.md)
+
 Refer to this file to gain an understanding of detections/ non detections and how to create draft plots that are used for analysis.
 
 ## 
