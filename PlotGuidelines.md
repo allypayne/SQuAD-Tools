@@ -10,6 +10,7 @@ Start by adjusting the color bar (and corresponding titles); ideas for these plo
 
 # Get started with the notebook called DraftPlots
 Look at DraftPlots [here](/DraftPlots.ipynb)
+
 Download the nb and you can go through the cells and adjust the parameters to create your own versions of the plots.
 
 ## Understanding Detections
