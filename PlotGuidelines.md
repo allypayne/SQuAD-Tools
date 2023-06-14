@@ -9,6 +9,7 @@ With these tools you can create draft plots that we are using in our upcoming po
 Start by adjusting the color bar (and corresponding titles); ideas for these plots include: sqrt_M_tot_OVI, sqrt_M_tot_HI, H_I_total_log10_N, O_VI_total_log10_N
 
 # Get started with the notebook called DraftPlots
+Look at DraftPlots [here](/DraftPlots.ipynb)
 Download the nb and you can go through the cells and adjust the parameters to create your own versions of the plots.
 
 ## Understanding Detections
