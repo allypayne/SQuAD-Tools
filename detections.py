@@ -1,7 +1,7 @@
 #                          *****************************************************
 # ~~~~~~~~~~~~~~~~~~~~~~~~ ALLY'S CODE FOR SORTING DETECTIONS AND NON DETECTIONS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #                          *****************************************************
-# June 13 2023
+# created June 13 2023
 
 import numpy as np
 import pandas as pd
@@ -78,6 +78,7 @@ def make_plot(data_set, detections, non_detections, ion, color_bar, cmap_color, 
     plt.title(set_title, size=20)
     cbar = plt.colorbar(detection_points)
     cbar.set_label(color_bar, size=12)
-    plt.text(0.12, .85, 'Along pole', fontsize=12, transform=plt.gcf().transFigure) 
-    plt.text(0.58, .1, 'Along disk', fontsize=12, transform=plt.gcf().transFigure)
+    plt.text(0.13, .85, 'Along pole', fontsize=12, transform=plt.gcf().transFigure) 
+    plt.text(0.58, .13, 'Along disk', fontsize=12, transform=plt.gcf().transFigure)
     plt.grid()
+    plt.legend(loc='upper right');
