@@ -12,8 +12,10 @@ def sort_detections(data_set, ion, vir_rad):
     cut1= data_set[data_set['rho_rvir']<= vir_rad]
     #threshold cut; take values with thresh less than 13.5 bc any higher value leaves too much room for noise
     cut2= cut1[cut1[ion+'_log10_N_det_thresh']<13.5]
+    # including only the safe detections
+    cut3= cut2[cut2[ion+'_total_log10_N']>cut2[ion+'_log10_N_det_thresh']]
     # cut to only include the detections (they have associated column densities)
-    detections = cut2[cut2[ion+'_total_log10_N'] > 0]
+    detections = cut3[cut3[ion+'_total_log10_N'] > 0]
     #rho_rvir_detections= detections['rho_rvir']
     max_rho_rvir= max(detections['rho_rvir'])
     print(f"The max rho_rvir value in this data set is {max_rho_rvir}")
@@ -26,7 +28,7 @@ def sort_detections(data_set, ion, vir_rad):
     detections_length= len(detections)
     print(f"The total number of detections is {detections_length}")
     return detections
-
+    
 def safe_non_detections(data_set, ion, vir_rad):
     #rho rvir cut
     cut1= data_set[data_set['rho_rvir']<= vir_rad]
